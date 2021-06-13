@@ -1,76 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./Bootstrap/Bootstrap-template.html" />
-		<link rel="stylesheet" href="CSS/styles.css" />
-		<title>Birthday Calculator</title>
-	</head>
-	<body>
-		<script src="./JS/javascript.js"></script>
 
-		<div class="container">
-			<div class="header">
-				<h2>Input Details</h2>
-			</div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Akan Name Generator</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Anton|Enriqueta&display=swap" rel="stylesheet">
+    <script src="js/scripts.js"></script>
+</head>
 
-                <form class="form" id="form">
-                <div class="form-control">
-                <label>Username</label>
-                <input type="text" placeholder="" id="username">
-                <i class="fas fa-check-circle"></i>
-                <i class="fas fa-exclamation-circle"></i>
-                <small>Error!!</small>
-                
+<body>
+    <div class="login-box">
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Akan Name Generator</h1>
+                   
+                <div class="container">
+                <div class="class-md-4">
+                    <p><strong>Input your details to get your <span>Akan</span> name:</strong></p>
+                    <form action="index.html">
+                        <div class="user-box">
+                            <label for="input-century"></label>
+                            <input type="number" class="form" id="main" required placeholder="Century"><br>
+                        </div>
+                        <div class="user-box">
+                            <label for="input-Day"></label>
+                            <input type="number" class="form" id="name" required placeholder="Day"><br>
+                        </div>
+                        <div class="user-box">
+                            <label for="input-Month"></label>
+                            <input type="number" class="form" id="Form" required placeholder="Month"><br>
+                        </div>
+                        <div class="user-box">
+                            <label for="input-Year"></label>
+                            <input type="number" class="form" id="akan" required placeholder="Year"><br>
+                        </div>
+                        <div class="input">
+                            <br><input type="radio" name="gender" class="name" id="input" value="male" required>Male
+                        </div>
+                        <div class="input">
+                            <br><input type="radio" name="gender" class="name" id="input" value="female" required>Female
+                        </div>
+                        <a href="#">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                           <button type="button" name="button" class="click" onclick="naming();">Click to see the Akan Name</button>
+                        </a>
+                    </form>
                 </div>
-                
-                <div class="form-control">
-                    <label>Date of Birth</label>
-                    <input type="date" name="begin" 
-                    placeholder="dd-mm-yyyy value=""
-                    min="1900-01-01" max="2030-12-31">
-                <i class="fas fa-check-circle"></i>
-                <i class="fas fa-exclamation-circle"></i>
-                <small>Error!!</small>
-                
-                </div>
-                
-                <div class="form-control">
-                <label>Gender</label>
-                <input type="text" placeholder="" id="gender">
-                <i class="fas fa-check-circle"></i>
-                <i class="fas fa-exclamation-circle"></i>
-                <small>Error!!</small>
-                
-                </div>
-                
-                <div class="form-control">
-                <label>Email</label>
-                <input type="text" placeholder="" id="email">
-                <i class="fas fa-check-circle"></i>
-                <i class="fas fa-exclamation-circle"></i>
-                <small>Error!!</small>
-                
-                </div>
-                
-                <br>
-                <div class="form-button">
-                <button>Submit</button>
-                </div>
-                </form>
-        
-     
-        <div class="row">
-            <div class="column">
-                <h3>What we do</h3>
-                <p>The age of a person can be counted differently in different cultures. 
-                    The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born.
-                    This is how our birth day generator works. 
-                    Try it out!
-                </p>
             </div>
-            </div>
-	</body>
+        </div>
+    </div>
+    </div>
+</div>
+
+<section>
+    <h2>About</h2>
+    <p>The naming system of the Akan people is as distinct as that which elders in Togo (the Ewe people), the Ga people, Benin (the Fon people), and the African diaspora pass on to toddlers. 
+        Other forms of traditional naming include middle names, which can refer to order of birth as part of the caste of siblings, twin status, or could be an inherited maiden name.
+        The Akan people use the Kwa language group’s system of timekeeping, which is based on a six-day week (‘nnanson‘), with the seventh day inclusive.
+        Try it out to find out your Akan Name.
+    </p>
+    </section>
+
 </html>
