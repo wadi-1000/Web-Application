@@ -8,9 +8,9 @@ This website will enable you to know the day you were born and generate your Aka
 
 ## Features
 
-1 A paragraph about the application.
+-  A paragraph about the application.
 
-2 A form to generate an Akan Name.
+-  A form to generate an Akan Name.
 
 ### Known Bugs
 
