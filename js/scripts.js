@@ -1,6 +1,5 @@
 function naming(){
-
-    let CC=parseInt(document.getElementById("main").value);
+    let CC=parseInt(document.getElementById("main").value)
     let YY=parseInt(document.getElementById("name").value);
     let MM=parseInt(document.getElementById("Form").value);
     let DD=parseInt(document.getElementById("akan").value);
@@ -10,7 +9,7 @@ function naming(){
     let maleNames=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
   
     if(CC.value =="" || YY.value =="" || MM.value =="" || DD.value ==""){
-        alert("No blank values allowed");
+        alert("All fields must be filled!");
     }
   
     var gender = document.querySelector('input[name="gender"]:checked').value;
@@ -31,7 +30,7 @@ function naming(){
         alert("Your Akan name is: " + maleNames[3]);
       } else if(dayOfTheWeek===4){
         alert("You were born on: " + day[4]);
-        alert("Your Akan name is: " + maleNames[4]);
+        alert("Your Akan name is: " + maleNames[5]);
       } else if(dayOfTheWeek===5){
         alert("You were born on: " + day[5]);
         alert("Your Akan name is: " + maleNames[5]);
