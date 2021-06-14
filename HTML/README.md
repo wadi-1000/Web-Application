@@ -22,7 +22,7 @@ This website will enable you to know the day you were born and generate your Aka
 -  Input the date you were born.
 -  Input the month you were born.
 -  Input the year you were born.
--  Click button to get your results.
+-  Click button to get your Akan Name.
 
 ### Setup/Installation Requirements
 
@@ -40,7 +40,7 @@ This website will enable you to know the day you were born and generate your Aka
 -  HTML
 -  CSS
 -  BOOTSTRAP
-   \*JAVASCRIPT
+-  JAVASCRIPT
 
 ### Support and contact details
 
